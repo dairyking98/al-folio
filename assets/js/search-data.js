@@ -37,26 +37,26 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/al-folio/repositories/";
           },
-        },{id: "nav-school-projects",
-          title: "school projects",
-          description: "Academic projects and coursework from my studies.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/school-projects/";
-          },
-        },{id: "nav-cv",
+        },{id: "dropdown-collection",
+              title: "collection",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/typewriters/collection/";
+              },
+            },{id: "dropdown-3d-type-elements",
+              title: "3d type elements",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/al-folio/typewriters/3d-type-elements/";
+              },
+            },{id: "nav-cv",
           title: "cv",
           description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/cv/";
-          },
-        },{id: "nav-personal-projects",
-          title: "personal projects",
-          description: "Independent projects I&#39;ve worked on in my spare time.",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/al-folio/personal-projects/";
           },
         },{id: "nav-teaching",
           title: "teaching",
@@ -581,35 +581,42 @@ ninja.data = [{
         title: 'email',
         section: 'Socials',
         handler: () => {
-          window.open("mailto:%79%6F%75@%65%78%61%6D%70%6C%65.%63%6F%6D", "_blank");
+          window.open("mailto:%6C%65%6F%6E%61%72%64.%63%68%61%75@%79%61%68%6F%6F.%63%6F%6D", "_blank");
         },
       },{
-        id: 'social-inspire',
-        title: 'Inspire HEP',
+        id: 'social-facebook',
+        title: 'Facebook',
         section: 'Socials',
         handler: () => {
-          window.open("https://inspirehep.net/authors/1010907", "_blank");
+          window.open("https://facebook.com/dairyking98", "_blank");
         },
       },{
-        id: 'social-rss',
-        title: 'RSS Feed',
+        id: 'social-github',
+        title: 'GitHub',
         section: 'Socials',
         handler: () => {
-          window.open("/al-folio/feed.xml", "_blank");
+          window.open("https://github.com/dairyking98", "_blank");
         },
       },{
-        id: 'social-scholar',
-        title: 'Google Scholar',
+        id: 'social-instagram',
+        title: 'Instagram',
         section: 'Socials',
         handler: () => {
-          window.open("https://scholar.google.com/citations?user=qc6CJjYAAAAJ", "_blank");
+          window.open("https://instagram.com/typemealetter", "_blank");
         },
       },{
-        id: 'social-custom_social',
-        title: 'Custom_social',
+        id: 'social-whatsapp',
+        title: 'whatsapp',
         section: 'Socials',
         handler: () => {
-          window.open("https://www.alberteinstein.com/", "_blank");
+          window.open("https://wa.me/15104614851", "_blank");
+        },
+      },{
+        id: 'social-youtube',
+        title: 'YouTube',
+        section: 'Socials',
+        handler: () => {
+          window.open("https://youtube.com/@dairyking98", "_blank");
         },
       },{
       id: 'light-theme',
