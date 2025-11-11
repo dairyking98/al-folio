@@ -1,14 +1,11 @@
 github_users:
   - torvalds
-  - alshedivat
+  - dairyking98
 
 repo_description_lines_max: 2
 
 github_repos:
-  - alshedivat/al-folio
-  - jekyll/jekyll
-  - twbs/bootstrap
-  - jquery/jquery
-  - FortAwesome/Font-Awesome
-  - mathjax/MathJax
-  - jpswalsh/academicons
+  - E-Lab-SFSU/3D-Cam
+  - dairyking98/Type-Elements
+  - dairyking98/HPWriter
+  - dairyking98/Team-O-Matic-2025

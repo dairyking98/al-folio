@@ -3,7 +3,7 @@ layout: page
 title: personal projects
 permalink: /personal-projects/
 description: Independent projects I've worked on in my spare time.
-nav: true
+nav: false
 nav_order: 5
 ---
 

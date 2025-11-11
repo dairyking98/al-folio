@@ -3,7 +3,7 @@ layout: page
 title: school projects
 permalink: /school-projects/
 description: Academic projects and coursework from my studies.
-nav: true
+nav: false
 nav_order: 4
 ---
 
