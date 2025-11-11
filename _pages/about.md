@@ -6,10 +6,10 @@ subtitle: Mechanical Engineer, Maker, and Researcher
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: leonard.jpg
   image_circular: false
   more_info: >
-    <p>San Francisco Bay Area</p>
+    <p>San Francisco Bay Area, California</p>
 
 selected_papers: false
 social: true
