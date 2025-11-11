@@ -5,7 +5,7 @@ permalink: /school-projects/
 description: Academic projects and coursework from my studies.
 nav: false
 nav_order: 4
-display_categories: [school]
+display_categories: [school-project]
 horizontal: false
 ---
 

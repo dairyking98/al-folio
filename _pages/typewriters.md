@@ -1,21 +1,25 @@
 ---
 layout: page
-title: personal projects
-permalink: /personal-projects/
-description: Independent projects I've worked on in my spare time.
-nav: false
-nav_order: 5
-display_categories: [personal-project]
+title: typewriters
+permalink: /typewriters/
+description: My typewriter collection and related projects.
+nav: true
+nav_order: 6
+display_categories: [3d-type-elements, typewriter-work]
 horizontal: false
 ---
 
-Independent projects I've worked on in my spare time.
+## Typewriters
 
-These are projects I've pursued outside of coursework, exploring my interests in fabrication, electronics, design, and making.
+This section showcases my work with typewriters, including restoration projects, custom type elements, and mechanical engineering explorations.
 
-You can browse all personal project posts by the [personal-project tag](/blog/tag/personal-project/).
+### Collection
 
-<!-- pages/personal-projects.md -->
+View my [typewriter collection]({{ '/typewriters/collection/' | relative_url }}) for a detailed list of all typewriters I own, including specifications, restoration status, and related blog posts.
+
+### Typewriter Projects
+
+<!-- pages/typewriters.md -->
 <div class="projects">
 {% if site.enable_project_categories and page.display_categories %}
   <!-- Display categorized projects -->
